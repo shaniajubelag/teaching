@@ -1,2 +1,2 @@
 # teaching
-For teaching purposes
+For teaching purposes only
