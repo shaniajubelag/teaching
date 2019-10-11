@@ -1,0 +1,50 @@
+<html>
+    <header>
+        <title>Input</title>
+    </header>
+    <body>
+        <form>
+            <table border="2">
+                <th colspan="2">Pizza Shop</th>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td colspan="2"><input type="text" name="name" id="name" value="Your Name here"></td>
+                </tr>
+                <tr>
+                    <td><label for="topping">Pizza Topping</label></td>
+                    <td>
+                        <input type="radio" name="topping" value="supreme">Supreme<br>
+                        <input type="radio" name="topping" value="vegetarian">Vegetarian<br>
+                        <input type="radio" name="topping" value="hawaiian">Hawaiian
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sauce">Pizza Sauce</label></td>
+                    <td>
+                        <select id="sauce" name="sauce">
+                            <option value="tomato">Tomato</option>
+                            <option value="cheese">Cheese</option>
+                            <option value="secret_sauce">Secret Sauce</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="extras">Optional Extras</label></td>
+                    <td>
+                        <input name="extras" type="checkbox" value="extra_cheese">Extra Cheese
+                        <input name="extras" type="checkbox" value="extra_sausage">Extra Sausage
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="delivery">Delivery Instructions</td>
+                    <td>
+                        <textarea name="delivery" id="devliery" rows="5px" cols="20px">Your Address</textarea>
+                        <br>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

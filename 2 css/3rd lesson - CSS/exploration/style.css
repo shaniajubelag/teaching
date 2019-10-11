@@ -1,0 +1,39 @@
+.container {
+    width: 80%;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+
+    /*
+    width: 200px; X => display: inline DOES NOT allow these to show 
+    height: 200px; X => resulting to seeing nothing on your browser
+    margin: 10px;
+    display: inline;
+    */
+}
+
+.green {
+    background-color: darkgreen;
+}
+
+.red {
+    background-color: tomato;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.purple {
+    background-color: violet;
+}
+
+.orange {
+    background-color: orange;
+}

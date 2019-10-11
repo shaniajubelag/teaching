@@ -1,0 +1,19 @@
+p { /* Calling it by its TAG*/
+    color: violet;
+    font-size: 50px;
+}
+
+#id { /* Calling it by its ID */
+    color: pink;
+}
+
+.class1 { /* Calling it by its CLASS*/
+    color: red;
+}
+
+.class2 { /* Calling a 2nd class to demostrate that you can have multiple CLASSES */
+    font-size: 75px;
+}
+
+/* margin: top left bottom right
+same with padding: */
